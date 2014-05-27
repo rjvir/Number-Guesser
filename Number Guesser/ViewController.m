@@ -31,7 +31,7 @@
     
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 200, 40)];
     [button setBackgroundColor:[UIColor blueColor]];
-    [button setTitle:@"What's my name?!!" forState:UIControlStateNormal];
+    [button setTitle:@"What's my number?!!" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
     
