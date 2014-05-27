@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716CFA44193423E800E6ED17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716CFA43193423E800E6ED17 /* Foundation.framework */; };
+		716CFA46193423E800E6ED17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716CFA45193423E800E6ED17 /* CoreGraphics.framework */; };
+		716CFA48193423E800E6ED17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716CFA47193423E800E6ED17 /* UIKit.framework */; };
+		716CFA4E193423E800E6ED17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716CFA4C193423E800E6ED17 /* InfoPlist.strings */; };
+		716CFA50193423E800E6ED17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CFA4F193423E800E6ED17 /* main.m */; };
+		716CFA54193423E800E6ED17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CFA53193423E800E6ED17 /* AppDelegate.m */; };
+		716CFA56193423E800E6ED17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716CFA55193423E800E6ED17 /* Images.xcassets */; };
+		716CFA5D193423E800E6ED17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716CFA5C193423E800E6ED17 /* XCTest.framework */; };
+		716CFA5E193423E800E6ED17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716CFA43193423E800E6ED17 /* Foundation.framework */; };
+		716CFA5F193423E800E6ED17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716CFA47193423E800E6ED17 /* UIKit.framework */; };
+		716CFA67193423E800E6ED17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716CFA65193423E800E6ED17 /* InfoPlist.strings */; };
+		716CFA69193423E800E6ED17 /* Number_GuesserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CFA68193423E800E6ED17 /* Number_GuesserTests.m */; };
+		716CFA74193424EC00E6ED17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716CFA73193424EC00E6ED17 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		716CFA60193423E800E6ED17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716CFA38193423E800E6ED17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 716CFA3F193423E800E6ED17;
+			remoteInfo = "Number Guesser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		716CFA40193423E800E6ED17 /* Number Guesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Guesser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716CFA43193423E800E6ED17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		716CFA45193423E800E6ED17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		716CFA47193423E800E6ED17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		716CFA4B193423E800E6ED17 /* Number Guesser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Number Guesser-Info.plist"; sourceTree = "<group>"; };
+		716CFA4D193423E800E6ED17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		716CFA4F193423E800E6ED17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		716CFA51193423E800E6ED17 /* Number Guesser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Number Guesser-Prefix.pch"; sourceTree = "<group>"; };
+		716CFA52193423E800E6ED17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		716CFA53193423E800E6ED17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		716CFA55193423E800E6ED17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		716CFA5B193423E800E6ED17 /* Number GuesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number GuesserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716CFA5C193423E800E6ED17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		716CFA64193423E800E6ED17 /* Number GuesserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Number GuesserTests-Info.plist"; sourceTree = "<group>"; };
+		716CFA66193423E800E6ED17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		716CFA68193423E800E6ED17 /* Number_GuesserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number_GuesserTests.m; sourceTree = "<group>"; };
+		716CFA72193424EC00E6ED17 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		716CFA73193424EC00E6ED17 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		716CFA3D193423E800E6ED17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CFA46193423E800E6ED17 /* CoreGraphics.framework in Frameworks */,
+				716CFA48193423E800E6ED17 /* UIKit.framework in Frameworks */,
+				716CFA44193423E800E6ED17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716CFA58193423E800E6ED17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CFA5D193423E800E6ED17 /* XCTest.framework in Frameworks */,
+				716CFA5F193423E800E6ED17 /* UIKit.framework in Frameworks */,
+				716CFA5E193423E800E6ED17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		716CFA37193423E800E6ED17 = {
+			isa = PBXGroup;
+			children = (
+				716CFA49193423E800E6ED17 /* Number Guesser */,
+				716CFA62193423E800E6ED17 /* Number GuesserTests */,
+				716CFA42193423E800E6ED17 /* Frameworks */,
+				716CFA41193423E800E6ED17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		716CFA41193423E800E6ED17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				716CFA40193423E800E6ED17 /* Number Guesser.app */,
+				716CFA5B193423E800E6ED17 /* Number GuesserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		716CFA42193423E800E6ED17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				716CFA43193423E800E6ED17 /* Foundation.framework */,
+				716CFA45193423E800E6ED17 /* CoreGraphics.framework */,
+				716CFA47193423E800E6ED17 /* UIKit.framework */,
+				716CFA5C193423E800E6ED17 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		716CFA49193423E800E6ED17 /* Number Guesser */ = {
+			isa = PBXGroup;
+			children = (
+				716CFA52193423E800E6ED17 /* AppDelegate.h */,
+				716CFA53193423E800E6ED17 /* AppDelegate.m */,
+				716CFA72193424EC00E6ED17 /* ViewController.h */,
+				716CFA73193424EC00E6ED17 /* ViewController.m */,
+				716CFA55193423E800E6ED17 /* Images.xcassets */,
+				716CFA4A193423E800E6ED17 /* Supporting Files */,
+			);
+			path = "Number Guesser";
+			sourceTree = "<group>";
+		};
+		716CFA4A193423E800E6ED17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				716CFA4B193423E800E6ED17 /* Number Guesser-Info.plist */,
+				716CFA4C193423E800E6ED17 /* InfoPlist.strings */,
+				716CFA4F193423E800E6ED17 /* main.m */,
+				716CFA51193423E800E6ED17 /* Number Guesser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		716CFA62193423E800E6ED17 /* Number GuesserTests */ = {
+			isa = PBXGroup;
+			children = (
+				716CFA68193423E800E6ED17 /* Number_GuesserTests.m */,
+				716CFA63193423E800E6ED17 /* Supporting Files */,
+			);
+			path = "Number GuesserTests";
+			sourceTree = "<group>";
+		};
+		716CFA63193423E800E6ED17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				716CFA64193423E800E6ED17 /* Number GuesserTests-Info.plist */,
+				716CFA65193423E800E6ED17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		716CFA3F193423E800E6ED17 /* Number Guesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716CFA6C193423E800E6ED17 /* Build configuration list for PBXNativeTarget "Number Guesser" */;
+			buildPhases = (
+				716CFA3C193423E800E6ED17 /* Sources */,
+				716CFA3D193423E800E6ED17 /* Frameworks */,
+				716CFA3E193423E800E6ED17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number Guesser";
+			productName = "Number Guesser";
+			productReference = 716CFA40193423E800E6ED17 /* Number Guesser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		716CFA5A193423E800E6ED17 /* Number GuesserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716CFA6F193423E800E6ED17 /* Build configuration list for PBXNativeTarget "Number GuesserTests" */;
+			buildPhases = (
+				716CFA57193423E800E6ED17 /* Sources */,
+				716CFA58193423E800E6ED17 /* Frameworks */,
+				716CFA59193423E800E6ED17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716CFA61193423E800E6ED17 /* PBXTargetDependency */,
+			);
+			name = "Number GuesserTests";
+			productName = "Number GuesserTests";
+			productReference = 716CFA5B193423E800E6ED17 /* Number GuesserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		716CFA38193423E800E6ED17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Raj Vir";
+				TargetAttributes = {
+					716CFA5A193423E800E6ED17 = {
+						TestTargetID = 716CFA3F193423E800E6ED17;
+					};
+				};
+			};
+			buildConfigurationList = 716CFA3B193423E800E6ED17 /* Build configuration list for PBXProject "Number Guesser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 716CFA37193423E800E6ED17;
+			productRefGroup = 716CFA41193423E800E6ED17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				716CFA3F193423E800E6ED17 /* Number Guesser */,
+				716CFA5A193423E800E6ED17 /* Number GuesserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		716CFA3E193423E800E6ED17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CFA4E193423E800E6ED17 /* InfoPlist.strings in Resources */,
+				716CFA56193423E800E6ED17 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716CFA59193423E800E6ED17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CFA67193423E800E6ED17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		716CFA3C193423E800E6ED17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CFA74193424EC00E6ED17 /* ViewController.m in Sources */,
+				716CFA54193423E800E6ED17 /* AppDelegate.m in Sources */,
+				716CFA50193423E800E6ED17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716CFA57193423E800E6ED17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716CFA69193423E800E6ED17 /* Number_GuesserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		716CFA61193423E800E6ED17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 716CFA3F193423E800E6ED17 /* Number Guesser */;
+			targetProxy = 716CFA60193423E800E6ED17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		716CFA4C193423E800E6ED17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716CFA4D193423E800E6ED17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		716CFA65193423E800E6ED17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716CFA66193423E800E6ED17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		716CFA6A193423E800E6ED17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		716CFA6B193423E800E6ED17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		716CFA6D193423E800E6ED17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Number Guesser/Number Guesser-Prefix.pch";
+				INFOPLIST_FILE = "Number Guesser/Number Guesser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		716CFA6E193423E800E6ED17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Number Guesser/Number Guesser-Prefix.pch";
+				INFOPLIST_FILE = "Number Guesser/Number Guesser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		716CFA70193423E800E6ED17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Number Guesser.app/Number Guesser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Number Guesser/Number Guesser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Number GuesserTests/Number GuesserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		716CFA71193423E800E6ED17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Number Guesser.app/Number Guesser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Number Guesser/Number Guesser-Prefix.pch";
+				INFOPLIST_FILE = "Number GuesserTests/Number GuesserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		716CFA3B193423E800E6ED17 /* Build configuration list for PBXProject "Number Guesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716CFA6A193423E800E6ED17 /* Debug */,
+				716CFA6B193423E800E6ED17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		716CFA6C193423E800E6ED17 /* Build configuration list for PBXNativeTarget "Number Guesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716CFA6D193423E800E6ED17 /* Debug */,
+				716CFA6E193423E800E6ED17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		716CFA6F193423E800E6ED17 /* Build configuration list for PBXNativeTarget "Number GuesserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716CFA70193423E800E6ED17 /* Debug */,
+				716CFA71193423E800E6ED17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 716CFA38193423E800E6ED17 /* Project object */;
+}
